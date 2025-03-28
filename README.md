@@ -1,2 +1,2 @@
 # ai-startup-website
-Wroking on a simple ai start up website
+Working on a simple ai start up website
