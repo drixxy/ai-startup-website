@@ -1,6 +1,6 @@
 # Git Workflow Simulation: Tom and Jerry (Navigation and Contact Info)
 
-**GitHub Repository URL:** [YOUR_GITHUB_REPOSITORY_URL_HERE]
+**GitHub Repository URL:** https://github.com/drixxy/ai-startup-website/blob/main/README.md
 
 This project simulates a collaborative workflow between Tom and Jerry using Git and GitHub, focusing on navigation updates and contact information additions, as per the instructor's requirements.
 
