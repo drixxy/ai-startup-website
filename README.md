@@ -80,3 +80,70 @@ This project simulates a collaborative workflow between Tom and Jerry using Git 
     * ![Push Main](screenshots/222.png)
 
 ## 8. Commit History
+
+## 9. Challenges and Solutions
+
+    * I did not encounter any challenges or issues during this project.
+
+## Part 3: Merging Changes via Pull Requests
+
+This section documents the process of merging the changes made by Tom and Jerry into the `main` branch using Pull Requests on GitHub.
+
+### 3.1 Creating a Pull Request for Tom's Branch (`updated-navigation`)
+
+1.  After Tom pushed his `updated-navigation` branch, a Pull Request was created to merge these changes into the `main` branch.
+2.  ![Create PR Tom Step 1](screenshots/main.png) - Screenshot showing navigation to the `updated-navigation` branch on GitHub.
+3.  ![Create PR Tom Step 2](screenshots/Compare&pull.png) - Screenshot showing the "Compare & pull request" button.
+4.  ![Create PR Tom Step 3](screenshots/PR-3.png) - Screenshot of the Pull Request creation form with title and description.
+5.  ![Create PR Tom Step 4](screenshots/pr_tom_initial_view.png) - Screenshot of the initial Pull Request view showing proposed changes.
+
+### 3.2 Reviewing Tom's Pull Request (Optional)
+
+1.  The changes proposed by Tom were reviewed.
+2.  ![Review PR Tom](screenshots/review_pr_tom.png) - Screenshot of the "Files changed" tab of Tom's Pull Request.
+
+### 3.3 Merging Tom's Pull Request
+
+1.  Tom's Pull Request was merged into the `main` branch.
+2.  ![Merge PR Tom Step 1](screenshots/created%20a%20pull%20request.png) - Screenshot showing the "Merge pull request" button.
+3.  ![Merge PR Tom Step 2](screenshots/merge_pr_tom_2.png) - Screenshot showing confirmation of the merge.
+4.  ![Merge PR Tom Step 3](screenshots/merge_pr_tom_3.png) - Screenshot of the Pull Request showing as "Merged."
+
+### 3.4 Creating a Pull Request for Jerry's Branch (`add-contact-info`)
+
+1.  After Jerry pushed his `add-contact-info` branch, a Pull Request was created to merge these changes into the `main` branch.
+2.  ![Create PR Jerry Step 1](screenshots/add-contactG.png) - Screenshot showing navigation to the `add-contact-info` branch on GitHub.
+3.  ![Create PR Jerry Step 2](screenshots/Compare&pull.png) - Screenshot showing the "Compare & pull request" button.
+4.  ![Create PR Jerry Step 3](screenshots/JerryCreate.png) - Screenshot of the Pull Request creation form.
+5.  ![Create PR Jerry Step 4](screenshots/pr_jerry_initial_view.png) - Screenshot of the initial Pull Request view.
+
+### 3.5 Updating Jerry's Branch with `main` Before Merging
+
+1.  Before merging Jerry's changes, his `add-contact-info` branch was updated with the latest changes from the `main` branch to prevent potential conflicts.
+2.  The following Git commands were used:
+    * `git checkout main`
+    * `git pull origin main`
+    * `git checkout add-contact-info`
+    * `git merge main`
+3.  ![Update Jerry's Branch Step 1](screenshots/prrrr.png) - Screenshot of `git checkout main` and `git pull origin main`.
+    * ![Update Jerry's Branch Step 2](screenshots/5555.png) - Screenshot of `git checkout add-contact-info` and `git merge main`.
+
+### 3.6 Reviewing Jerry's Pull Request (Optional)
+1. Jerry's pull request was reviewed.
+2. ![Review PR Jerry](screenshots/review_pr_jerry.png)
+
+### 3.7 Merging Jerry's Pull Request
+
+1.  Jerry's Pull Request was merged into the `main` branch.
+2.  ![Merge PR Jerry Step 1](screenshots/created%20a%20pull%20request.png) - Screenshot showing the "Merge pull request" button.
+3.  ![Merge PR Jerry Step 2](screenshots/merge_pr_jerry_2.png) - Screenshot showing confirmation of the merge.
+4.  ![Merge PR Jerry Step 3](screenshots/merge_pr_jerry_3.png) - Screenshot of the Pull Request showing as "Merged."
+
+### 3.8 Evidence of Successful Merge
+
+1.  The `main` branch on GitHub now contains the changes from both Tom's and Jerry's branches.
+2.  ![Main Branch Commit History](screenshots/33333.png) - Screenshot of the commit history of the `main` branch on GitHub.
+
+## 10. Conclusion
+
+This project demonstrates a complete collaborative workflow using Git and GitHub, from initial setup and branching to feature development and merging via Pull Requests.  All requirements of the instructor's instructions have been fulfilled.
